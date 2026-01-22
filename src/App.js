@@ -47,13 +47,11 @@ export default function App() {
         </main>
       </div>
       <footer>
-        Open-source code, by{" "}
-        <a href="https://github.com/Katmitsu">Katy Ciutac </a>
-        <a href="https://app.netlify.com/projects/meteo-ap-derland/configuration/general">
-          It is open-sourced on Github
-        </a>
-        and
-        <a href="https://meteo-ap-derland.netlify.app/"> hosted on Netlify</a>
+        Coded by <a href="https://github.com/Katmitsu">Katy Ciutac, </a>{" "}
+        open-sourced on{" "}
+        <a href="https://github.com/Katmitsu/weather-react-app">Github </a>
+        and hosted on{" "}
+        <a href="https://bespoke-marshmallow-032f5b.netlify.app/"> Netlify.</a>
       </footer>
     </div>
   );
