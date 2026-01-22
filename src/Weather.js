@@ -12,8 +12,8 @@ export default function Weather() {
       city: response.data.city,
       temperature: Math.round(response.data.main.temp),
       description: response.data.weather[0].description,
-      humidity: `${response.data.main.humidity}%`,
-      speed: `${response.data.wind.speed}km/h`,
+      humidity: response.data.main.humidity,
+      speed: response.data.wind.speed,
       time: formatDate(new Date(response.data.dt * 1000)),
       icon: response.data.weather[0].icon,
     });
