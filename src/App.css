@@ -1,38 +1,73 @@
-.App {
-  text-align: center;
+body {
+  background-color: #f9f7fe;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container {
+  max-width: 600px;
+  margin: 30px auto;
+  background: white;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.city-list {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #0055d5;
 }
 
-.App-link {
-  color: #61dafb;
+.city-list span {
+  padding: 4px 8px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.search-form-input {
+  width: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.search-form-button {
+  padding: 10px 15px;
+  margin-left: 0px;
+  border: none;
+  border-radius: 1px;
+  background-color: #0055d5;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.current-form-button {
+  padding: 10px 15px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 1px;
+  background-color: #217e30;
+  color: #ffffff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.weather-app-city {
+  font-size: 32px;
+  font-weight: 500;
+  color: #7a7a7a;
+  margin-bottom: 10px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  color: #555;
+  margin-top: 20px;
+}
+footer a {
+  color: #b256b2;
+  text-decoration: none;
 }
