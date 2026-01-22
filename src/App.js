@@ -35,15 +35,45 @@ export default function App() {
             </div>
 
             <div className="weather-app-temperature-container">
-              <img
-                src="https://openweathermap.org/img/wn/04d@2x.png"
-                className="weather-app-icon"
-                alt="clouds"
-              />
-              <div className="weather-app-temperature">14</div>
-              <div className="weather-app-unit">°C</div>
+              <div className="icon">
+                <img
+                  src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+                  class="weather-app-icon"
+                  alt="Clear sky"
+                />
+              </div>
+              <div className="weather-app-temperature" id="temperature">
+                12
+              </div>
+              <div className="weather-app-unit">ºC</div>
             </div>
           </div>
+          <div className="weather-forecast" id="forecast"></div>
+          <img
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+            className="weather-app-icon"
+            alt="Clear sky"
+          />
+          <img
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+            className="weather-app-icon"
+            alt="Clear sky"
+          />
+          <img
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+            className="weather-app-icon"
+            alt="Clear sky"
+          />
+          <img
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+            className="weather-app-icon"
+            alt="Clear sky"
+          />
+          <img
+            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+            className="weather-app-icon"
+            alt="Clear sky"
+          />
         </main>
       </div>
       <footer>
