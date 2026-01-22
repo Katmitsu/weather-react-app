@@ -57,8 +57,17 @@ body {
 .weather-app-city {
   font-size: 32px;
   font-weight: 500;
-  color: #7a7a7a;
+  color: #555;
   margin-bottom: 10px;
+}
+
+.weather-app-temperature-container {
+  display: flex;
+}
+.weather-app-temperature {
+  font-size: 70px;
+  line-height: 88px;
+  font-weight: bold;
 }
 
 footer {
