@@ -48,32 +48,38 @@ export default function App() {
               <div className="weather-app-unit">ºC</div>
             </div>
           </div>
-          <div className="weather-forecast" id="forecast"></div>
-          <img
-            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-            className="weather-app-icon"
-            alt="Clear sky"
-          />
-          <img
-            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-            className="weather-app-icon"
-            alt="Clear sky"
-          />
-          <img
-            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-            className="weather-app-icon"
-            alt="Clear sky"
-          />
-          <img
-            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-            className="weather-app-icon"
-            alt="Clear sky"
-          />
-          <img
-            src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
-            className="weather-app-icon"
-            alt="Clear sky"
-          />
+          <div className="weather-forecast" id="forecast">
+            Fri
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              className="weather-app-icon"
+              alt="Clear sky"
+            />
+            Sat
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              className="weather-app-icon"
+              alt="Clear sky"
+            />
+            Sun
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              className="weather-app-icon"
+              alt="Clear sky"
+            />
+            Mon
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              className="weather-app-icon"
+              alt="Clear sky"
+            />
+            Tue
+            <img
+              src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/clear-sky-day.png"
+              className="weather-app-icon"
+              alt="Clear sky"
+            />
+          </div>
         </main>
       </div>
       <footer>
